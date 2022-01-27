@@ -1,6 +1,6 @@
   public class Program {
-  
 	  public static void main(String[] args) {
+		  
           boolean caractereEhMaiusculo1 = Caractere.EhMaiusculo('a');
           boolean caractereEhMaiusculo2 = Caractere.EhMaiusculo('B');
           boolean caractereEhMaiusculo3 = Caractere.EhMaiusculo('d');
