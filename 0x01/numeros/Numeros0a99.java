@@ -6,7 +6,7 @@ public class Numeros0a99 {
 				System.out.print(i + ", ");
 			}
 			else {
-				System.out.print(i);
+				System.out.println(i);
 			}
 	}
 }
