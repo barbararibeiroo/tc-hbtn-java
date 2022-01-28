@@ -1,8 +1,8 @@
 
 public class PersonagemGame {
 
-	int saudeAtual;
-	String nome;
+	public int saudeAtual;
+	public String nome;
 	
 	public PersonagemGame(int saudeAtual, String nome) {
 		super();
