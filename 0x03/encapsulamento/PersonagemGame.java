@@ -1,15 +1,10 @@
-package controle;
+
 
 public class PersonagemGame {
 
 	private int saudeAtual;
 	private String nome;
 
-	public PersonagemGame(int saudeAtual, String nome) {
-		super();
-		this.saudeAtual = saudeAtual;
-		this.nome = nome;
-	}
 
 	public int getSaudeAtual() {
 		return saudeAtual;
