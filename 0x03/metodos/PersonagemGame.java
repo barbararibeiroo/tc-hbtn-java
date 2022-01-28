@@ -24,7 +24,6 @@ public class PersonagemGame {
 
 	public void receberCura(int quantidadeDeCura) {
 		this.saudeAtual = saudeAtual + quantidadeDeCura; 
-		this.setSaudeAtual(saudeAtual);
 		if(saudeAtual > 100) {
 			this.saudeAtual = 100;
 		}
@@ -33,7 +32,6 @@ public class PersonagemGame {
 
 	public void tomarDano(int quantidadeDeDano) {
 		this.saudeAtual = saudeAtual - quantidadeDeDano; 
-		this.setSaudeAtual(saudeAtual);
 		if(saudeAtual < 0) {
 			this.saudeAtual = 0;
 		}
