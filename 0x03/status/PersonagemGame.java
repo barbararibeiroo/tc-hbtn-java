@@ -5,7 +5,7 @@ public class PersonagemGame {
 	private String status;
 
 	public PersonagemGame(int saudeAtual, String nome) {
-		this.setSaudeAtual(saudeAtual); 
+		this.setSaudeAtual(saudeAtual);
 		this.nome = nome;
 
 	}
@@ -16,8 +16,7 @@ public class PersonagemGame {
 
 	public String setNome(String nome) {
 		return nome;
-		}		
-	
+	}
 
 	public int getSaudeAtual() {
 		return saudeAtual;
@@ -25,6 +24,15 @@ public class PersonagemGame {
 
 	public String getStatus() {
 		return status;
+	}
+
+	public void setSaudeAtual(int saudeAtual) {
+		this.saudeAtual = saudeAtual;
+		if (saudeAtual > 0) {
+			this.status = "vivo";
+		} else {
+			this.status = "morto";
+		}
 	}
 
 	public void receberCura(int quantidadeDeCura) {
@@ -41,15 +49,6 @@ public class PersonagemGame {
 		this.setSaudeAtual(saudeAtual);
 		if (saudeAtual < 0) {
 			saudeAtual = 0;
-		}
-	}
-
-	public void setSaudeAtual(int saudeAtual) {
-		this.saudeAtual = saudeAtual;
-		if (saudeAtual > 0) {
-			this.status = "vivo";
-		} else {
-			this.status = "morto";
 		}
 	}
 
