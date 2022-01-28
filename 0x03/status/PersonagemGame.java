@@ -4,12 +4,6 @@ public class PersonagemGame {
 	private String nome;
 	private String status;
 
-	public PersonagemGame(int saudeAtual, String nome) {
-		this.setSaudeAtual(saudeAtual);
-		this.nome = nome;
-
-	}
-
 	public String getNome() {
 		return nome;
 	}
