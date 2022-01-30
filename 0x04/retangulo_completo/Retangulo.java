@@ -26,5 +26,21 @@ public class Retangulo extends FormaGeometrica {
 			this.altura = altura;
 		}
 	}
+	
+	public double area() {
+		return largura * altura;
+	}
+
+	@Override
+	public String toString() {
+		return "[Retangulo] " 
+				+ String.format("%.2f", largura)
+				+ " / "
+				+ String.format("%.2f ", altura);
+				
+	
+	}
 
 }
+
+
