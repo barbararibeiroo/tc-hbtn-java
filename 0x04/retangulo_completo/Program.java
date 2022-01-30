@@ -5,6 +5,5 @@ public class Program {
         retangulo.setAltura(4);
         System.out.println("Retangulo eh uma subclasse de FormaGeometrica");
         System.out.printf("Area: %.2f\n", retangulo.area());
-        System.out.println(retangulo.toString());
-    }
+        System.out.println(retangulo.toString()); }
 }
