@@ -1,8 +1,8 @@
 
 public class Retangulo extends FormaGeometrica {
 
-	private double largura;
-	private double altura;
+	protected double largura;
+	protected double altura;
 
 	public double getLargura() {
 		return largura;
@@ -37,5 +37,4 @@ public class Retangulo extends FormaGeometrica {
 		return "[Retangulo] " + String.format("%.2f", largura) + " / " + String.format("%.2f", altura);
 
 	}
-
 }
