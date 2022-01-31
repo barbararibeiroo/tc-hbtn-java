@@ -1,8 +1,8 @@
 
 public class Retangulo extends FormaGeometrica {
 
-	protected double largura;
-	protected double altura;
+	private double largura;
+	private double altura;
 
 	public double getLargura() {
 		return largura;
@@ -27,7 +27,7 @@ public class Retangulo extends FormaGeometrica {
 			this.altura = altura;
 		}
 	}
-	@Override
+
 	public double area() {
 		return largura * altura;
 	}

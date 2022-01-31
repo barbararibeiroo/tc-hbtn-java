@@ -1,4 +1,6 @@
 
+import retangulo_completo.Retangulo;
+
 public class Quadrado extends Retangulo {
 
 	private double lado;
