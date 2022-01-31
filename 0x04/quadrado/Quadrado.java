@@ -1,4 +1,3 @@
-package quadrado;
 
 public class Quadrado extends Retangulo  {
 	
