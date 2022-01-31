@@ -1,6 +1,6 @@
 
 public abstract class FormaGeometrica {
-	public double area() {
+	public abstract double area() {
 		throw new UnsupportedOperationException("Retangulo eh uma subclasse de FormaGeometrica");
 	}
 
