@@ -6,5 +6,4 @@ public class Program {
 
         System.out.printf("Area: %.2f\n", retangulo.area());
         System.out.println(retangulo.toString());
-    }
-}
+    }}
