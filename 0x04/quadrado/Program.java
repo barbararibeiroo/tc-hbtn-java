@@ -1,9 +1,6 @@
-
-import java.lang.reflect.Field;
-import java.lang.reflect.Modifier;
-
-import retangulo_completo.Retangulo;
-
+   import java.lang.reflect.Field;
+   import java.lang.reflect.Modifier;
+    
 public class Program {
 
         public static void main(String[] args) {
