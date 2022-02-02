@@ -12,7 +12,7 @@ public class ContaBancariaBasica {
 		this.taxaJurosAnual = taxaJurosAnual;
 	}
 	public String getNumeracao() {
-		return numeracao;
+		return numeracao; 
 	}
 	public double getSaldo() {
 		return saldo;
@@ -42,18 +42,23 @@ public class ContaBancariaBasica {
 		if ((saldo * 0.1) < 10) {
 			return saldo * 0.1;
 		} else {
-			return 10.00f;
+			return 0.10;
 		}
 	}
 	public double calcularJurosMensal() {
 		if (saldo < 0) {
-			return 0.00f;
+			return 0;
 		} else {
 			return saldo * ((taxaJurosAnual / 100) / 12);
 		}
 	}
 	void aplicarAtualizacaoMensal() {
-		this.saldo = saldo - calcularTarifaMensal() + calcularJurosMensal() ;
+		this.saldo = saldo - calcularTarifaMensal() + calcularJurosMensal();
+	}
+	public void setSaldo(double saldo) {
+		this.saldo = saldo;
+	}
+	
 	}	
-}
+
 
