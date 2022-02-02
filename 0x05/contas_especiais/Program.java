@@ -5,7 +5,7 @@ public class Program {
 	public static void main(String[] args) {
 		Locale.setDefault(new Locale("pt", "BR"));
 		try {
-			ContaBancariaTarifada conta1 = new ContaBancariaTarifada("AAA", 30.0,0);
+			ContaBancariaTarifada conta1 = new ContaBancariaTarifada("AAA", 30.0, 0);
 			System.out.printf("Conta %s - saldo: %.2f\n", conta1.getNumeracao(), conta1.getSaldo());
 			conta1.depositar(125);
 			System.out.printf("Conta %s - saldo: %.2f\n", conta1.getNumeracao(), conta1.getSaldo());
