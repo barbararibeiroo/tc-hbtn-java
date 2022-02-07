@@ -1,4 +1,3 @@
-package inteiro_positivo;
 
 import java.util.Locale;
 
@@ -53,7 +52,7 @@ public class Program {
 
         try {
             InteiroPositivo inteiroPositivo = new InteiroPositivo(378);
-            System.out.println(inteiroPositivo.getValor() + " - " + inteiroPositivo.ehPrimo());
+            System.out.print(inteiroPositivo.getValor() + " - " + inteiroPositivo.ehPrimo());
         } catch (Exception ex) {
             System.out.println(ex.getMessage());
         }
