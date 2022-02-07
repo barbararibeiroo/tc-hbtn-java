@@ -1,7 +1,12 @@
 package inteiro_positivo;
 
+import java.util.Locale;
+
 public class Program {
     public static void main(String[] args) {
+    	
+    	Locale.setDefault(new Locale("pt", "BR"));
+    	
         try {
             InteiroPositivo inteiroPositivo = new InteiroPositivo("1");
             System.out.println(inteiroPositivo.getValor() + " - " + inteiroPositivo.ehPrimo());
