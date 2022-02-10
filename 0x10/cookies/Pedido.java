@@ -1,4 +1,3 @@
-package cookies;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -52,13 +51,8 @@ public class Pedido {
 				cookies.remove(cookies.get(i));
 			}
 		}
-		return totalCaixas;
-	
+		return totalCaixas;	
 	}
-
-
-
-
 		
 }
 
