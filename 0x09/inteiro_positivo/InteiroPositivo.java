@@ -1,4 +1,3 @@
-package inteiro_positivo;
 
 public class InteiroPositivo {
 
