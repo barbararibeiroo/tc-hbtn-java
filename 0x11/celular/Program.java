@@ -1,10 +1,8 @@
-import java.util.Locale;
-
 public class Program {
 
         public static void main(String[] args) {
         	
-        	Locale.setDefault(new Locale("pt", "BR"));
+     
             Celular celular = new Celular();
 
             Contato contato1 = new Contato("Jane Doe", "998211555", TipoNumero.CELULAR);
@@ -86,4 +84,5 @@ public class Program {
             }
 
             System.out.println("-----");
-        }}
+        }
+}
