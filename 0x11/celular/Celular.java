@@ -1,3 +1,4 @@
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -51,7 +52,7 @@ public class Celular {
 			}
 			if (!(contatoAntigo.getNome().equals(novoContato.getNome()))) {
 
-				throw new IllegalArgumentException("Nao foi possivel modificar contato. Contato nao existe.");
+				throw new IllegalArgumentException("Nao foi possivel modificar contato. Contato nao existe");
 			}
 		}
 		for (int i = 0; i < contatos.size(); i++) {
