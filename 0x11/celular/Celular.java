@@ -1,3 +1,4 @@
+
 import java.util.List;
 import java.util.ArrayList;
 
@@ -68,10 +69,10 @@ public class Celular {
 
 		for (Contato contato : contatos) {
 			if (contato.getNome().equals(nomeContatoBuscado)) {
-				pesquisadosContatos.add(contato);
+				contatosPesquisados.add(contato);
 			}
 		}
-		return pesquisadosContatos;
+		return contatosPesquisados;
 	}
 
 	public void listarContatos() {
