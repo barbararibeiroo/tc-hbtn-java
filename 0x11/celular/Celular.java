@@ -1,18 +1,17 @@
-
-import java.util.ArrayList;
 import java.util.List;
+import java.util.ArrayList;
 
 public class Celular {
 
-	List<Contato> contatos = new ArrayList<>();
-	ArrayList<Contato> pesquisadosContatos = new ArrayList<Contato>();
+	private ArrayList<Contato> contatos = new ArrayList<Contato>();
+	private ArrayList<Contato> contatosPesquisados = new ArrayList<Contato>();
 
 	public Celular() {
 
 	}
 
 	public Celular(List<Contato> contatos) {
-		this.contatos = contatos;
+		this.contatos = (ArrayList<Contato>) contatos;
 	}
 
 	public int obterPosicaoContato(Contato nomeContato) {
