@@ -1,5 +1,5 @@
-import java.util.List;
 import java.util.ArrayList;
+import java.util.List;
 
 public class Celular {
 
@@ -10,8 +10,8 @@ public class Celular {
 
 	}
 
-	public Celular(List<Contato> contatos) {
-		this.contatos = (ArrayList<Contato>) contatos;
+	public Celular(ArrayList<Contato> contatos) {
+		this.contatos = contatos;
 	}
 
 	public int obterPosicaoContato(Contato nomeContato) {

@@ -1,3 +1,5 @@
+package celular;
+
 public class Contato {
 
 	private String nome;
