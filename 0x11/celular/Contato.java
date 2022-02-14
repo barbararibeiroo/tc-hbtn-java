@@ -1,15 +1,13 @@
-package celular;
-
 public class Contato {
 
 	private String nome;
-	private String numero;
+	private String numeroDeTelefone;
 	private TipoNumero tipo;
 	
-	public Contato(String nome, String numero, TipoNumero tipo) {
+	public Contato(String nome, String numeroDeTelefone, TipoNumero tipo) {
 		super();
 		this.nome = nome;
-		this.numero = numero;
+		this.numeroDeTelefone = numeroDeTelefone;
 		this.tipo = tipo;
 	}
 
@@ -21,12 +19,12 @@ public class Contato {
 		this.nome = nome;
 	}
 
-	public String getNumero() {
-		return numero;
+	public String getNumeroDeTelefone() {
+		return numeroDeTelefone;
 	}
 
-	public void setNumero(String numero) {
-		this.numero = numero;
+	public void setNumeroDeTelefone(String numeroDeTelefone) {
+		this.numeroDeTelefone = numeroDeTelefone;
 	}
 
 	public TipoNumero getTipo() {
