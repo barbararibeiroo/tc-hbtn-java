@@ -1,34 +1,39 @@
+import java.util.Locale;
+
 import atividades.*;
- public class Program {
-        public static void main(String[] args) {
-            MaquinaWorkflow maquinaWorkflow = new MaquinaWorkflow();
 
-            Workflow workflowEncodificarVideos = new Workflow();
+public class Program {
+	public static void main(String[] args) {
 
-            workflowEncodificarVideos.registrarAtividade(new CarregarVideo());
-            workflowEncodificarVideos.registrarAtividade(new CodificarVideo());
-            workflowEncodificarVideos.registrarAtividade(new EnviarEmail());
+		Locale.setDefault(new Locale("pt", "BR"));
+		MaquinaWorkflow maquinaWorkflow = new MaquinaWorkflow();
 
-            maquinaWorkflow.executar(workflowEncodificarVideos);
+		Workflow workflowEncodificarVideos = new Workflow();
 
-            System.out.println("-----");
+		workflowEncodificarVideos.registrarAtividade(new CarregarVideo());
+		workflowEncodificarVideos.registrarAtividade(new CodificarVideo());
+		workflowEncodificarVideos.registrarAtividade(new EnviarEmail());
 
-            Workflow workflowVideos = new Workflow();
+		maquinaWorkflow.executar(workflowEncodificarVideos);
 
-            workflowVideos.registrarAtividade(new CarregarVideo());
-            workflowVideos.registrarAtividade(new EnviarEmail());
+		System.out.println("-----");
 
-            maquinaWorkflow.executar(workflowVideos);
+		Workflow workflowVideos = new Workflow();
 
-            System.out.println("-----");
+		workflowVideos.registrarAtividade(new CarregarVideo());
+		workflowVideos.registrarAtividade(new EnviarEmail());
 
-            Workflow workflowVideosStatus = new Workflow();
+		maquinaWorkflow.executar(workflowVideos);
 
-            workflowVideosStatus.registrarAtividade(new CarregarVideo());
-            workflowVideosStatus.registrarAtividade(new ModificarStatusVideo());
-            workflowVideosStatus.registrarAtividade(new EnviarEmail());
+		System.out.println("-----");
 
-            maquinaWorkflow.executar(workflowVideosStatus);        
+		Workflow workflowVideosStatus = new Workflow();
+
+		workflowVideosStatus.registrarAtividade(new CarregarVideo());
+		workflowVideosStatus.registrarAtividade(new ModificarStatusVideo());
+		workflowVideosStatus.registrarAtividade(new EnviarEmail());
+
+		maquinaWorkflow.executar(workflowVideosStatus);
 
 	}
 
