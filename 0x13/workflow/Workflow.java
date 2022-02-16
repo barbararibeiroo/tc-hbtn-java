@@ -1,3 +1,5 @@
+import atividades.Atividade;
+
 public class Workflow {
 	
 	public Workflow() {
@@ -5,7 +7,6 @@ public class Workflow {
 	}
 
 	public void registrarAtividade(Atividade atividade) {
-		
 	}
 	
 }
