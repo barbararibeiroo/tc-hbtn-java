@@ -1,8 +1,6 @@
 import java.util.List;
 import java.util.Locale;
 
-import preco_minimo.CategoriaProduto;
-
 public class Program {
 
 	public static void main(String[] args) {
