@@ -1,6 +1,3 @@
-package maior_preco;
-
-import preco_minimo.CategoriaProduto;
 
 public class Produto {
 
