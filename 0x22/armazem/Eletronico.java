@@ -1,4 +1,3 @@
-package armazem;
 
 public class Eletronico {
 
