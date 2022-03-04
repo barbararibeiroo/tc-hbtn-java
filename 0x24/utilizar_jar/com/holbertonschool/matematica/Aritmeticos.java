@@ -1,11 +1,12 @@
+package com.holbertonschool.matematica;
 
 public class Aritmeticos {
 
-	public int somar(int val1,int val2) {
+	public static int somar(int val1,int val2) {
 		return val1 + val2;
 	}
 	
-	public int subtrair(int val1,int val2) {
+	public static int subtrair(int val1,int val2) {
 		return val1 + val2;
 	}
 	

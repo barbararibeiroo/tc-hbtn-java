@@ -1,6 +1,7 @@
 package com.holbertonschool.main;
 
-import com.holbertonschool.matematica.*;
+import com.holbertonschool.matematica.Aritmeticos;
+
 public class Program {
 
 	public static void main(String[] args) {
