@@ -1,6 +1,6 @@
 package com.holbertonschool.main;
 
-import com.holbertonschool.matematica.Aritmeticos;
+import com.holbertonschool.matematica.*;
 
 public class Program {
 
